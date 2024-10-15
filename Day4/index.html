@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+</head>
+<body>
+    <section>
+        <header>
+            <h2>Contact Us Form</h2>
+        </header>
+        <form action="" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Name" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required>
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+            <br>
+            <br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="6" cols="40" placeholder="Enter your message" required></textarea>
+            <br>
+            <br>
+            <fieldset>
+              <legend>Gender?</legend>
+              <label for="Male">
+                <input id="Male" type="radio" name="gender" value="Male" checked> Male
+              </label>
+              <label for="Female">
+                <input id="Female" type="radio" name="gender" value="Female"> Female
+              </label>
+            </fieldset>
+            <br>
+            <fieldset>
+              <legend>What's your hobbies?</legend>
+              <label for="coding">
+                <input id="coding" type="checkbox" name="hobbies" value="coding" checked> Coding
+              </label>
+              <label for="reading">
+                <input id="reading" type="checkbox" name="hobbies" value="reading"> Reading
+              </label>
+              <label for="drawing">
+                <input id="drawing" type="checkbox" name="hobbies" value="drawing"> Drawing
+              </label>
+              <label for="cooking">
+                <input id="cooking" type="checkbox" name="hobbies" value="cooking"> Cooking
+              </label>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+          </form>                   
+      </section>
+</body>
+</html>
